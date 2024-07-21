@@ -1,10 +1,6 @@
 <script>
-  import { onMount } from "svelte";
-  onMount(() => {
-    console.log("init");
-  });
 </script>
 
 <main>
-  <h1>init</h1>
+  <h1><slot>default</slot></h1>
 </main>
